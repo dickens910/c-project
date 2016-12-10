@@ -1,0 +1,21 @@
+C:\Users\usager\Desktop\TP2\TP2\bin\TP2.dll
+C:\Users\usager\Desktop\TP2\TP2\bin\TP2.pdb
+C:\Users\usager\Desktop\TP2\TP2\obj\Debug\TP2.dll
+C:\Users\usager\Desktop\TP2\TP2\obj\Debug\TP2.pdb
+C:\Users\usager\Desktop\TP2\TP2\bin\mysql.data.dll
+C:\Users\usager\Desktop\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+U:\Mes Documents\A16\Csharp\TP2v2\TP2\bin\TP2.dll
+U:\Mes Documents\A16\Csharp\TP2v2\TP2\bin\TP2.pdb
+U:\Mes Documents\A16\Csharp\TP2v2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+U:\Mes Documents\A16\Csharp\TP2v2\TP2\obj\Debug\TP2.dll
+U:\Mes Documents\A16\Csharp\TP2v2\TP2\obj\Debug\TP2.pdb
+C:\Users\usager\Desktop\TP2v2\TP2\bin\TP2.dll
+C:\Users\usager\Desktop\TP2v2\TP2\bin\TP2.pdb
+C:\Users\usager\Desktop\TP2v2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Users\usager\Desktop\TP2v2\TP2\obj\Debug\TP2.dll
+C:\Users\usager\Desktop\TP2v2\TP2\obj\Debug\TP2.pdb
+C:\Users\usager\Desktop\conversionMoney-master\TP2v2.1\TP2\bin\TP2.dll
+C:\Users\usager\Desktop\conversionMoney-master\TP2v2.1\TP2\bin\TP2.pdb
+C:\Users\usager\Desktop\conversionMoney-master\TP2v2.1\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Users\usager\Desktop\conversionMoney-master\TP2v2.1\TP2\obj\Debug\TP2.dll
+C:\Users\usager\Desktop\conversionMoney-master\TP2v2.1\TP2\obj\Debug\TP2.pdb

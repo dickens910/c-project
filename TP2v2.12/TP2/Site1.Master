@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TP2.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 798px;
+            height: 147px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="tout" 
+        style="width : 800px; margin : auto; border : 1px solid #cc3300;">
+        <div id="banniere">
+            <img class="style1" src="imgres.jpg" /></div>
+       <div>
+           <asp:Label ID="lName" runat="server" ForeColor="Black" Font-Bold="True" 
+               BorderStyle="None" Visible="False">Bienvenue </asp:Label>
+        &nbsp;<asp:Button ID="bDeconecter" runat="server" Text="Deconnecter"  
+            onclick="bDeconnecter_Click" Height="28px" Visible="False" /></div>  
+       <div id="menu">
+           <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" 
+            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" 
+            ForeColor="#284E98" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+               onmenuitemclick="Menu1_MenuItemClick">
+            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#B5C7DE" />
+            <DynamicSelectedStyle BackColor="#507CD1" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/lister.aspx" Text="Liste des Type de Monnaie" 
+                    Value="Liste des Type de Monnaie"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#507CD1" />
+        </asp:Menu>
+    </div>
+        <div >
+
+            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+         <div id="pieddepage" 
+        style="text-align: center; font-size: 80%; background-color : #cc3300;">
+    &copy; Auteur 2011
+    </div>
+    </div>
+    </form>
+</body>
+</html>
